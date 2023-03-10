@@ -55,7 +55,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'omniauth', '1.9.2'
-gem "omniauth-rails_csrf_protection", '~> 0.1.2'
-gem "omniauth-azure_active_directory_b2c", git: "https://github.com/Capncavedan/omniauth-azure_active_directory_b2c", branch: "master"
+gem 'omniauth'
+gem "omniauth-rails_csrf_protection", '~> 1.0'
+gem "omniauth-azure_active_directory_b2c", git: "https://github.com/Capncavedan/omniauth-azure_active_directory_b2c", branch: "allow-use-with-omniauth-gem-v-2"
 
