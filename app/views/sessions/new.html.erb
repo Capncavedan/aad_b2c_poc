@@ -1,3 +1,7 @@
 <%= form_tag('/auth/developer', method: 'post', data: {turbo: false}) do %>
   <button type='submit'>Login with Developer</button>
 <% end %>
+
+<%= form_tag('/auth/aad_b2c_strategy', method: 'post', data: {turbo: false}) do %>
+  <button type='submit'>Login with AAD B2C</button>
+<% end %>
